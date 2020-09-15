@@ -18,6 +18,8 @@ WORKDIR /opt
 # ENV IDM_HOST "http://localhost"
 # ENV IDM_PORT "3000"
 
+# ENV IDM_BASE_URL "/"
+
 # ENV IDM_DEBUG "true"
 
 # ENV IDM_HTTPS_ENABLED true

@@ -10,6 +10,7 @@ function to_array(env, default_value){
 
 config.port = (process.env.IDM_PORT || 3000 );
 config.host = (process.env.IDM_HOST || 'http://localhost:' + config.port);
+config.base_url = (process.env.IDM_BASE_URL || '/' );
 
 config.debug = to_boolean(process.env.IDM_DEBUG, true);
 
